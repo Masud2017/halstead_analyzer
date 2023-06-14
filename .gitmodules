@@ -1,0 +1,6 @@
+[submodule "lib/argparser"]
+	path = lib/argparser
+	url = https://github.com/cofyc/argparse.git
+[submodule "lib/spdlog"]
+	path = lib/spdlog
+	url = https://github.com/gabime/spdlog.git
