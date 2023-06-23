@@ -7,8 +7,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/halstead_analyzer.dir/src/metrics.c.o.d"
   "CMakeFiles/halstead_analyzer.dir/src/test.c.o"
   "CMakeFiles/halstead_analyzer.dir/src/test.c.o.d"
+  "CMakeFiles/halstead_analyzer.dir/test/TestParser.c.o"
+  "CMakeFiles/halstead_analyzer.dir/test/TestParser.c.o.d"
   "halstead_analyzer"
   "halstead_analyzer.pdb"
+  "halstead_analyzer[1]_tests.cmake"
 )
 
 # Per-language clean rules from dependency scanning.

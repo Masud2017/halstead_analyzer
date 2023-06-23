@@ -405,17 +405,11 @@ gmock_BINARY_DIR:STATIC=/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_anal
 //Value Computed by CMake
 gmock_IS_TOP_LEVEL:STATIC=OFF
 
-//Dependencies for the target
-gmock_LIB_DEPENDS:STATIC=general;gtest;
-
 //Value Computed by CMake
 gmock_SOURCE_DIR:STATIC=/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/_deps/googletest-src/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
-
-//Dependencies for the target
-gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
 googletest-distribution_BINARY_DIR:STATIC=/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/_deps/googletest-build
@@ -450,9 +444,6 @@ gtest_force_shared_crt:BOOL=ON
 
 //Build gtest with internal symbols hidden in shared libraries.
 gtest_hide_internal_symbols:BOOL=OFF
-
-//Dependencies for the target
-gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
 halstead_analyzer_BINARY_DIR:STATIC=/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build
@@ -656,17 +647,17 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding Python
-FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.6()]
+//Details about finding Python3
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.6()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 //Path to a program.
-_Python_EXECUTABLE:INTERNAL=/usr/bin/python3.10
-//Python Properties
-_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
-_Python_INTERPRETER_SIGNATURE:INTERNAL=61380851b1f49cd20124cec6c9ca8095
+_Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.10
+//Python3 Properties
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
 cmake_package_name:INTERNAL=GTest
 generated_dir:INTERNAL=/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/_deps/googletest-build/googletest/generated
 //ADVANCED property for variable: gmock_build_tests

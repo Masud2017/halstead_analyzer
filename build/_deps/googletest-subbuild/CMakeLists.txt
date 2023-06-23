@@ -13,7 +13,7 @@ project(googletest-populate NONE)
 
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
-                     "UPDATE_DISCONNECTED" "False" "URL" "https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip"
+                     "UPDATE_DISCONNECTED" "False" "URL" "https://github.com/google/googletest/archive/ec4fed93217bc2830959bb8e86798c1d86956949.zip"
                     SOURCE_DIR          "/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/_deps/googletest-src"
                     BINARY_DIR          "/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
