@@ -19,13 +19,13 @@ add_subdirectory(lib/argparser)
 
 
 target_include_directories(${PROJECT_NAME}
-	PUBLIC lib/argparser PUBLIC lib/spdlog/include
+	PUBLIC lib/argparser PUBLIC lib/spdlog/include PUBLIC lib/pcre/src PUBLIC lib/googletest/googletest/include
 )
 
 target_link_directories(${PROJECT_NAME}
-	PRIVATE lib/argparser PRIVATE lib/spdlog/src
+	PRIVATE lib/argparser PRIVATE lib/spdlog/src PRIVATE lib/pcre/src PRIVATE lib/googletest/googletest/src
 )
 
 
-target_link_libraries(${PROJECT_NAME} spdlog argparse)
+target_link_libraries(${PROJECT_NAME} spdlog argparse pcre gtest)
 

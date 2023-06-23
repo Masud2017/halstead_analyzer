@@ -1,0 +1,10 @@
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/CMakeFiles/halstead_analyzer.dir
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/CMakeFiles/edit_cache.dir
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/lib/spdlog/CMakeFiles/spdlog.dir
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/lib/spdlog/CMakeFiles/edit_cache.dir
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/lib/spdlog/CMakeFiles/rebuild_cache.dir
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/lib/argparser/CMakeFiles/argparse_shared.dir
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/lib/argparser/CMakeFiles/argparse.dir
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/lib/argparser/CMakeFiles/edit_cache.dir
+/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/lib/argparser/CMakeFiles/rebuild_cache.dir
