@@ -17,15 +17,26 @@ message(STATUS "Build halstead analyzer: ${PROJECT_VERSION}")
 add_subdirectory(lib/spdlog)
 add_subdirectory(lib/argparser)
 
+# adding gtest to the source 
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
+)
+# For Windows: Prevent overriding the parent project's compiler/linker settings
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+# gest including portion ended
+
 
 target_include_directories(${PROJECT_NAME}
-	PUBLIC lib/argparser PUBLIC lib/spdlog/include PUBLIC lib/pcre/src PUBLIC lib/googletest/googletest/include
+	PUBLIC lib/argparser PUBLIC lib/spdlog/include PUBLIC lib/pcre/src
 )
 
 target_link_directories(${PROJECT_NAME}
-	PRIVATE lib/argparser PRIVATE lib/spdlog/src PRIVATE lib/pcre/src PRIVATE lib/googletest/googletest/src
+	PRIVATE lib/argparser PRIVATE lib/spdlog/src PRIVATE lib/pcre/src
 )
 
 
-target_link_libraries(${PROJECT_NAME} spdlog argparse pcre gtest)
+target_link_libraries(${PROJECT_NAME} spdlog argparse pcre)
 

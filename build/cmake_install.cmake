@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/lib/spdlog/cmake_install.cmake")
   include("/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/lib/argparser/cmake_install.cmake")
+  include("/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/_deps/googletest-build/cmake_install.cmake")
 
 endif()
 

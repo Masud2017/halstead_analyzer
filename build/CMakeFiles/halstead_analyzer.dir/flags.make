@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DSPDLOG_COMPILED_LIB
 
-C_INCLUDES = -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/include -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/lib/argparser -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/lib/spdlog/include -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/lib/pcre/src -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/lib/googletest/googletest/include -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/lib/argparser/.
+C_INCLUDES = -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/include -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/lib/argparser -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/lib/spdlog/include -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/lib/pcre/src -I/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/lib/argparser/.
 
 C_FLAGS = -O3 -DNDEBUG
 
