@@ -4,10 +4,10 @@ cmake_minimum_required(VERSION 3.10)
 project(halstead_analyzer VERSION 1.0)
 
 file(GLOB SRC_DIR "${PROJECT_SOURCE_DIR}/src/*.c")
-file(GLOB TEST_SRC_DIR "${PROJECT_SOURCE_DIR}/test/*.c")
+file(GLOB TEST_SRC_DIR "${PROJECT_SOURCE_DIR}/test/*.cc")
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-add_executable(${PROJECT_NAME} main.c ${SRC_DIR} ${TEST_SRC_DIR})
+add_executable(${PROJECT_NAME} main.cc ${SRC_DIR} ${TEST_SRC_DIR})
 
 
 set(PROJECT_VERSION 1.0)
