@@ -1,3 +1,0 @@
-/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/mnt/e/intellijproject/c_cpp_codes/halstead_matrics_analyzer/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
