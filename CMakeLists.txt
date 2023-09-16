@@ -3,7 +3,10 @@ cmake_minimum_required(VERSION 3.10)
 # set the project name
 project(halstead_analyzer VERSION 1.0)
 
-file(GLOB SRC_DIR "${PROJECT_SOURCE_DIR}/src/*.c")
+# setting c++ compiler version
+set(CMAKE_CXX_STANDARD 17)
+
+file(GLOB SRC_DIR "${PROJECT_SOURCE_DIR}/src/*.cc")
 file(GLOB TEST_SRC_DIR "${PROJECT_SOURCE_DIR}/test/*.cc")
 include_directories(${PROJECT_SOURCE_DIR}/include)
 

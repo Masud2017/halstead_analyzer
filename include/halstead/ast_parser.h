@@ -3,25 +3,26 @@
 #include <malloc.h>
 #include <string.h>
 #include <regex.h>
+#include <iostream>
 
 struct Operator {
-	char* name; // name of the operator
+	std::string name; // name of the operator
 	int id; // id is the role number based on sequential occurance
 };
 
 typedef struct Operator Operator;
 
 struct Operand {
-	char* name; // name of the operand
+	std::string name; // name of the operand
 	int id; // id is the role number based on sequential occurance
 };
 
 typedef struct Operand Operand;
 
-char* get_operator(char* codeline); // for each line of code seraches operators
+std::string get_operator(std::string codeline); // for each line of code seraches operators
 
-Operator* get_operator_list(char* filename);
-Operand* get_operand_list(char* filename);
+Operator* get_operator_list(std::string filename);
+Operand* get_operand_list(std::string filename);
 
 
 
